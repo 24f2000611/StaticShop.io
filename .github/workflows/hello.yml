@@ -16,7 +16,7 @@ jobs:
         run: ls -la
         
       - name: prime-cache-ece426b
-        uses: actions/checkout@v4
+        uses: actions/cache@v4
         with : 
           key: cache-ece426b
         
