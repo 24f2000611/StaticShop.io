@@ -14,3 +14,9 @@ jobs:
         
       - name: List files 
         run: ls -la
+        
+      - name: prime-cache-ece426b
+        uses: actions/checkout@v4
+        with : 
+          key: cache-ece426b
+        
