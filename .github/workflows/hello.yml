@@ -19,4 +19,5 @@ jobs:
         uses: actions/cache@v4
         with : 
           key: cache-ece426b
+          path: ~/.cache/pip
         
